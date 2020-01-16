@@ -91,7 +91,7 @@ $ gradle-build.sh 2.0
 $ docker-pay-domain-build.sh 2.0
 ```
 
-### 3) Blue-Green 방식으로 nginx rout를 변경하며 무중단 배포를 진행한다.
+### 3) Blue-Green 방식으로 nginx route를 변경하며 무중단 배포를 진행한다.
 
 ```bash
 $ devops.sh deploy
