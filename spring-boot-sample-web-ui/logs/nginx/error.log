@@ -1,0 +1,158 @@
+2020/01/14 18:57:43 [emerg] 1#1: host not found in upstream "nervous_napier:8080" in /etc/nginx/nginx.conf:16
+2020/01/14 19:58:03 [emerg] 1#1: unknown directive "check" in /etc/nginx/nginx.conf:18
+2020/01/14 20:02:59 [emerg] 1#1: unknown directive "check" in /etc/nginx/nginx.conf:20
+2020/01/14 20:04:54 [emerg] 1#1: unknown directive "check" in /etc/nginx/nginx.conf:25
+2020/01/14 20:05:56 [emerg] 1#1: invalid parameter "server" in /etc/nginx/nginx.conf:25
+2020/01/14 20:09:33 [emerg] 1#1: unknown directive "check" in /etc/nginx/nginx.conf:25
+2020/01/14 20:11:05 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:05 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:15 [error] 6#6: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:15 [error] 6#6: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:17 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:17 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:18 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:18 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:19 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:19 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:19 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:19 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:20 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:20 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:21 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:21 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:21 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:21 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:22 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:22 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:22 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:22 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:23 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:23 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:23 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:23 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:24 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:24 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:25 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:25 [error] 6#6: *22 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:25 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:25 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:26 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:26 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:26 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:26 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:27 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:27 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:27 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:27 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:28 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:28 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:29 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:29 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:29 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:29 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:30 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:30 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:30 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:30 [error] 6#6: *41 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:31 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:31 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:31 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:31 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:31 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:31 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:32 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:32 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:32 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:32 [warn] 6#6: *64 upstream server temporarily disabled while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:33 [error] 6#6: *64 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:33 [warn] 6#6: *64 upstream server temporarily disabled while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:34 [error] 6#6: *64 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:34 [error] 6#6: *64 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:35 [error] 6#6: *64 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:35 [error] 6#6: *64 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:37 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:38 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:38 [error] 6#6: *77 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:46 [error] 6#6: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:46 [warn] 6#6: *80 upstream server temporarily disabled while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8080/", host: "localhost"
+2020/01/14 20:11:46 [error] 6#6: *80 connect() failed (111: Connection refused) while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:46 [warn] 6#6: *80 upstream server temporarily disabled while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://172.18.0.2:8080/", host: "localhost"
+2020/01/14 20:11:46 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:46 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:47 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:48 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:48 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:49 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:49 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:49 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:49 [error] 6#6: *80 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:51 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:51 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:51 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:51 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:51 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:51 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:52 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:52 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:52 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:52 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:52 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:52 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:53 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET / HTTP/1.1", upstream: "http://pay-domain/", host: "localhost"
+2020/01/14 20:11:54 [error] 6#6: *85 no live upstreams while connecting to upstream, client: 10.0.2.2, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://pay-domain/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2020/01/15 15:25:34 [emerg] 2362#2362: host not found in upstream "spring-boot-sample-web-ui_web-ui2_1:8080" in /etc/nginx/nginx.conf:23
+2020/01/15 15:29:52 [notice] 12#12: signal process started
+2020/01/15 15:31:10 [notice] 33#33: signal process started
+2020/01/15 15:34:22 [notice] 69#69: signal process started
+2020/01/15 15:35:38 [notice] 90#90: signal process started
+2020/01/15 15:36:53 [emerg] 106#106: no "events" section in configuration
+2020/01/15 15:42:06 [notice] 166#166: signal process started
+2020/01/15 15:43:21 [notice] 182#182: signal process started
+2020/01/15 15:44:38 [emerg] 203#203: no "events" section in configuration
+2020/01/15 15:46:51 [notice] 228#228: signal process started
+2020/01/15 15:48:07 [notice] 249#249: signal process started
+2020/01/15 15:49:23 [emerg] 265#265: no "events" section in configuration
+2020/01/15 15:52:47 [notice] 305#305: signal process started
+2020/01/15 15:54:03 [notice] 321#321: signal process started
+2020/01/15 15:57:06 [notice] 362#362: signal process started
+2020/01/15 15:58:21 [notice] 378#378: signal process started
+2020/01/15 15:59:37 [emerg] 399#399: no "events" section in configuration
+2020/01/15 16:01:50 [notice] 424#424: signal process started
+2020/01/15 16:03:05 [notice] 440#440: signal process started
+2020/01/15 16:04:21 [notice] 461#461: signal process started
+2020/01/15 16:07:46 [notice] 503#503: signal process started
+2020/01/15 16:09:03 [notice] 519#519: signal process started
+2020/01/15 16:10:19 [notice] 540#540: signal process started
+2020/01/15 16:26:44 [notice] 711#711: signal process started
+2020/01/15 16:28:00 [notice] 727#727: signal process started
+2020/01/15 16:29:15 [notice] 748#748: signal process started
+2020/01/15 16:51:05 [emerg] 969#969: host not found in upstream "spring-boot-sample-web-ui_web-ui2_1:8080" in /etc/nginx/nginx.conf:23
+2020/01/15 16:52:28 [emerg] 989#989: host not found in upstream "spring-boot-sample-web-ui_web-ui2_1:8080" in /etc/nginx/nginx.conf:23
+2020/01/15 16:54:45 [emerg] 1014#1014: host not found in upstream "spring-boot_web-ui2:8080" in /etc/nginx/nginx.conf:23
